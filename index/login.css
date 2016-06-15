@@ -1,0 +1,164 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+
+/* @import url(fonts/fonts.css); */
+
+body {
+	background: url('../images/bg.png');
+	width: 400px;
+	margin: 0 auto;
+	padding-top: 80px;
+	font-family: 'Open Sans', sans-serif;
+}
+#logo {
+	text-align: center;
+	margin-bottom: 80px;
+}
+.notice {
+	background: #ECF5FD;
+	border: 1px #A6CEF7 solid;
+	padding: 10px;
+	margin: -20px 0 20px;
+	font-size: 13px;
+	color: #062E4A;
+	line-height: 1.5em;
+}
+.red {
+	background: #FAE8E4;
+	border-color: #EAA297;
+	color: #672116;
+}
+.green {
+	background: #E2FCF0;
+	border-color: #89EFC1;
+	color: #0C5A37;
+}
+.yellow {
+	background: #FFF0D9;
+	border-color: #FFD595;
+	color: #A66400;
+}
+.gray {
+	background: #F3F3F3;
+	border-color: #C1C1C1;
+	color: #2E2E2E;
+}
+.box {
+	width: 350px;
+	background: #fff;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+-webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+	padding: 25px;
+}
+.box h3 {
+	background: #062E4A;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 26px;
+	padding-top: 16px;
+	height: 46px;
+	width: 400px;
+	color: #fff;
+	font-weight: normal;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	text-align: center;
+	margin: -25px 0 25px -25px;
+}
+.inputbox {
+	margin: 12px auto;
+}
+.inputbox input {
+	background: #ECF5FD;
+	outline: none;
+	border: none;
+	font-size: 16px;
+	color: #127AC7;
+	height: 50px;
+	width: 308px;
+	padding-left: 40px;
+	border-left: 2px #A6CEF7 solid;
+}
+.inputbox input:focus {
+	border-left: 2px #127AC7 solid;
+}
+.inputbox#user input {
+	background: #ECF5FD url('../images/icons/loginuser.png') no-repeat 10px 15px;
+}
+.inputbox#pass input {
+	background: #ECF5FD url('../images/icons/loginpass.png') no-repeat 10px 15px;
+}
+.inputbox input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #ECF5FD inset;
+}
+.checkbox {
+	width: 160px;
+	float: left;
+	font-weight: 300;
+	font-size: 14px;
+	margin-top: 12px;
+}
+.checkbox label {
+	margin-top: 2px;
+	float: left;
+}
+.checkbox input {
+	float: left;
+}
+input.submit {
+	background: #E4FCF1 url('../images/icons/loginsubmit.png') no-repeat 10px 12px;
+	height: 42px;
+	border: none;
+	outline: none;
+	color: #128B55;
+	font-size: 16px;
+	width: 173px;
+	border-left: 2px #16A765 solid;
+	text-align: left;
+	padding: 2px 0 0 35px;
+	float: right;
+}
+input.submit:hover {
+	cursor: pointer;
+	background-color: #C8F9E2;
+}
+input.submit:focus {
+	border-left: 2px #0C5A37 solid;
+}
+.help {
+	font-weight: 300;
+	font-style: italic;
+	font-size: 14px;
+	color: #127AC7;
+	text-align: center;
+	margin: 20px auto;
+}
+.help  a {
+	color: #127AC7;
+	text-decoration: none;
+}
+.help a:hover {
+	color: #000;
+}
+::-webkit-input-placeholder {
+    color: #A6CEF7;
+}
+:-moz-placeholder {
+   color: #A6CEF7;
+   opacity: 1;
+}
+::-moz-placeholder {
+   color: #A6CEF7;
+   opacity: 1;
+}
+:-ms-input-placeholder {
+   color: #A6CEF7;
+}
+.clear {clear:both;}
+#forgotbox {
+	display: none;
+}
